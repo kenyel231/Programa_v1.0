@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    background: rgb(20,18,91);
+    background: linear-gradient(90deg, rgba(20,18,91,1) 26%, rgba(24,13,181,1) 82%);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: white;
+}
+
+h2 {
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formula p {
+    color: rgb(163, 158, 158);
+}
+
+.box {
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box label {
+    color: rgb(163, 158, 158);
+    font-size: 18px;
+}
+
+.box input {
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    background: rgb(20,18,91);
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.box button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all background-color 0.3s;
+}
+
+.box button:hover {
+    background-color: #45a049;
+}
+
+.resultado {
+    width: 100%;
+    max-height: 250px;
+    margin-top: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    background-color: rgb;
+    font-weight: bold;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right {
+    color: grey;
+}
+
+
+.resultado h2, .resultado p, .resultado h3 {
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.resultado p {
+    color: rgb(163, 158, 158);
+}
+
+.resultado h3 {
+    color: #45a049;
+}
+
+.copy {
+    color: white;
+}
+
+.element-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado h2 {
+    color: #ccc;
+    display: flex;
+    justify-content: start;
+}
+
+.formula {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .box {
+        display: flex;
+        width: 75%;
+    }
+
+    .formula {
+        display: flex;
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .resultado {
+        display: flex;
+        width: 75%;
+    }
+
+    .resultado p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .resultado h2 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .formula {
+        padding: 15px;
+    }
+
+    .formula h2 {
+        display: none;
+    }
+
+    .box input, .box button {
+        font-size: 0.9rem;
+    }
+
+    .element-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
