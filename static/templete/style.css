@@ -47,6 +47,7 @@ main {
 
 .box form {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 15px;
 }
@@ -68,7 +69,6 @@ main {
 }
 
 .box button {
-    padding: 12px 20px;
     border-radius: 5px;
     border: none;
     background-color: #4CAF50;
@@ -118,12 +118,6 @@ main {
 
 .copy {
     color: white;
-}
-
-.element-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .resultado h2 {
