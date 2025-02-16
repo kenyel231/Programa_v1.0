@@ -68,17 +68,22 @@ main {
     margin-left: 20px;
 }
 
-.box button {
-    border-radius: 5px;
-    border: none;
+button {
     background-color: #4CAF50;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
     color: white;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all background-color 0.3s;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
 }
 
-.box button:hover {
+button:hover {
+    width: 40%;
+    transition: 0.3s ease;
     background-color: #45a049;
 }
 
@@ -178,11 +183,12 @@ main {
         display: none;
     }
 
-    .box input, .box button {
+    .box input {
         font-size: 0.9rem;
     }
 
-    .element-3 {
+    button {
+        font-size: 0.9rem;
         display: flex;
         align-items: center;
         justify-content: center;

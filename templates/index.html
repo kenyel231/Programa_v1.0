@@ -21,19 +21,17 @@
             <form action="/" method="POST">
                 <div class="element-1">
                     <label for="a">Valor de a:</label>
-                    <input type="text" id="a" name="a" required>
+                    <input type="text" id="a" name="a" required autocomplete="off">
                 </div>
                 <div class="element-2">
                     <label for="b">Valor de b:</label>
-                    <input type="text" id="b" name="b" required>
+                    <input type="text" id="b" name="b" required autocomplete="off">
                 </div>
                 <div class="element-2">
                     <label for="n">Valor de n:</label>
-                    <input type="number" id="n" name="n" required placeholder="Solo Numeros Enteros">
+                    <input type="number" id="n" name="n" required placeholder="Solo Numeros Enteros" autocomplete="off">
                 </div>
-                <div class="element-3">
-                    <button type="submit">Calcular</button>
-                </div>
+                <button type="submit">Calcular</button>
             </form>
         </div>
         {% if resultado %}
